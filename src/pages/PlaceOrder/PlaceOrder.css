@@ -33,22 +33,18 @@
 .place-order .cart-total button{
     margin-top: 30px;
 }
-@media (max-width:750px){
-    .cart-bottom{
-        flex-direction: column-reverse;
-    }
-    .cart-promocode{
-        justify-content: start;
-    }
-    .place-order{
+@media (max-width: 750px) {
+    .place-order {
         flex-direction: column;
         gap: 20px;
         margin-top: 50px;
     }
-    .place-order-left, .place-order-right{
+
+    .place-order-left, .place-order-right {
         max-width: 100%;
     }
-    .place-order-left .multi-fields{
+
+    .place-order-left .multi-fields {
         flex-direction: column;
         gap: 0;
     }
